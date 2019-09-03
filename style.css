@@ -1,0 +1,14 @@
+body{
+    background-image: url(images/mediterranea.jpg);
+    background-size: cover;
+}
+
+.body2{
+    background-image: url(images/mediterranea1.jpg);
+    background-size: cover;
+}
+
+.body3{
+    background-image: url(images/mediterranea2.jpg);
+    background-size: cover;
+}
