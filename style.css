@@ -1,4 +1,4 @@
-body{
+.body1{
     background-image: url(images/mediterranea.jpg);
     background-size: cover;
 }
@@ -11,4 +11,35 @@ body{
 .body3{
     background-image: url(images/mediterranea2.jpg);
     background-size: cover;
+}
+
+.jumbotron{
+    background-color:#FFEEAE;
+    border: 1px solid #FFE66F;
+    border-radius: 20px;
+}
+
+#navbarSupportedContent{
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.box{
+    font-family: 'Calligraffitti', cursive;
+    font-size: 30px;
+}
+
+.RRSS{
+    color: #EBC444;
+    font-size: 50px;
+    text-align: right;
+}
+
+.box1{
+    border: 2px solid beige;
+    background-color: beige;
+    border-radius: 15px;
+}
+
+.list-group-item{
+    font-size: 12px;
 }
