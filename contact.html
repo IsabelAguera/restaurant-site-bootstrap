@@ -40,9 +40,53 @@
                     
                 </ul>
             </div>
+            <div class="logoo d-none d-sm-none d-md-block"><img src="images/logosisi.png" alt="logo" justify-right width="50%"></div>
         </div>
+    </nav>    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-3">
+
+        <div class="formulaire">
+       
+            <form method="POST" action="traitement.php">
         
-                    
+                <p>
+                    <label for="nom">Votre nom:</label><br>
+                    <input type="text" name="nom" id="nom" placeholder="Ex: Aguera" size="30" maxlength="10" autofocus required/></br>
+                </p>
+                <p>  
+                    <label for="pass">Votre prénom:</label><br>
+                    <input type="text" name="nom" id="nom" placeholder="Ex: Isabel" size="30" maxlength="10" autofocus required/></br>
+                </p>  
+           
+                <p>  
+                    <label for="mail">Votre mail:</label><br>
+                    <input type="email" name="mail" id="mail" placeholder="Ex: isabel.perez@gmail.com" required><br>
+                </p> 
+                <p>
+                    <label for="site" maxlength="10" size="30">Motive:</label><br>
+                    <select name="site" id="site">
+                    <option value="reservation">Réservation</option>
+                    <option value="evenement">Événement</option>
+                    <option value="autre">Autre</option>
+                    </select><br>
+                </p>
+                <p> 
+                    <label for="ameliorer">Commentaire:</label><br>
+                    <textarea name="ameliorer" id="ameliorer" rows="10" cols="60"></textarea><br>
+                </p>  
+                <p>
+                    <input type="submit" value="Envoyer"/> <br>
+        
+                </p>
+                </div>
+            </form>
+        </div> 
+            </div>
+            
+        </div>
+    </div>         
     
 </body>
 </html>

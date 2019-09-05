@@ -6,15 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" type="image/x-icon" href="/images/minicon.ico"/>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="./Bootstrap/js/bootstrap.min.js"></script>
+    <script src="./Bootstrap/js/jquery.js"></script> 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/75bed6266a.js"></script>
+    <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Calligraffitti&display=swap">
+    <link href="https://fonts.googleapis.com/css?family=Miniver&display=swap" rel="stylesheet">
     <title>Mangez y Olé</title>
 </head>
 <body class="body2">
         
     <nav class="navbar navbar-expand-lg navbar-dark white">
-          
+        <div class="container">
             <a class="navbar-brand" href="index.html"><i class="fas fa-home"></i></a>
         
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,53 +41,55 @@
                     </li>
                 </ul>
             </div>
+            <div class="logoo d-none d-sm-none d-md-block"><img src="images/logosisi.png" alt="logo" justify-right width="50%"></div>
+        </div>
     </nav>
 
-<div class="container mt-5">
+<div class="container mt-4">
     <div class="row">
-                <div class="box1 col-md-5 offset-1 mb-1">
+                <div class="box1 col-md-5 col-12 offset-md-1 mb-1">
                     <ul class="list-group">
-                            <li class="list-group-item active">Entrées</li>
-                            <li class="list-group-item">Gazpacho</li>
-                            <li class="list-group-item">Salmorejo</li>
-                            <li class="list-group-item">Tomate de la huerta</li>
-                            <li class="list-group-item">Plato de charcutería</li>
-                            <li class="list-group-item">Chorizo al infierno</li>
-                            <li class="list-group-item">Tapas de la casa</li>
+                            <li class="list-group-item active" id="titul">Entrées</li>
+                            <li class="list-group-item d-flex justify-content-between" id="item">Gazpacho<span>6€</span></li>
+                            <li class="list-group-item d-flex justify-content-between" id="item">Salmorejo <span class="badge badge-warning badge-pill">New</span><span>6€</span></li>
+                            <li class="list-group-item d-flex justify-content-between" id="item">Tomate de la huerta<span>5€</span></li>
+                            <li class="list-group-item d-flex justify-content-between" id="item">Plato de charcutería<span>10€</span></li>
+                            <li class="list-group-item d-flex justify-content-between" id="item">Chorizo al infierno<span>8€</span></li>
+                            <li class="list-group-item d-flex justify-content-between" id="item">Tapas de la casa<span>3€</span></li>
                     </ul>
                 </div>
-                <div class="box1 col-md-5 offset-1 mb-1">
+                <div class="box1 col-md-5 col-12 offset-md-1 mb-1">
                     <ul class="list-group">
-                            <li class="list-group-item active">Viande</li>
-                            <li class="list-group-item">Secreto Ibérico</li>
-                            <li class="list-group-item">Pluma ibérica</li>
-                            <li class="list-group-item">Costillitas en adobo</li>
-                            <li class="list-group-item">Pollo al pil pil</li>
-                            <li class="list-group-item">Albóndigas en tomate</li>
-                            <li class="list-group-item">Flamenquín</li>
+                            <li class="list-group-item active" id="titul">Viande</li>
+                            <li class="list-group-item d-flex justify-content-between" id="item">Secreto Ibérico<span>20€</span></li>
+                            <li class="list-group-item d-flex justify-content-between" id="item">Pluma ibérica<span>19€</span></li>
+                            <li class="list-group-item d-flex justify-content-between" id="item">Costillitas en adobo<span>15€</span></li>
+                            <li class="list-group-item d-flex justify-content-between" id="item">Pollo al pil pil<span>12€</span></li>
+                            <li class="list-group-item d-flex justify-content-between" id="item">Albóndigas en tomate<span>12€</span></li>
+                            <li class="list-group-item d-flex justify-content-between" id="item">Flamenquín<span>13€</span></li>
                     </ul>
                 </div>
-                <div class="box1 col-md-5 offset-1">
+                <div class="box1 col-md-5 col-12 offset-md-1">
                     <ul class="list-group">
-                            <li class="list-group-item active">Poisson</li>
-                            <li class="list-group-item">Calamares fritos</li>
-                            <li class="list-group-item">Puntillitas</li>
-                            <li class="list-group-item">Calamar a la plancha</li>
-                            <li class="list-group-item">Lenguado</li>
-                            <li class="list-group-item">Choco en salsa</li>
-                            <li class="list-group-item">Surtido de pescado</li>
+                            <li class="list-group-item active" id="titul">Poisson</li>
+                            <li class="list-group-item d-flex justify-content-between" id="item">Calamares fritos<span>16€</span></li>
+                            <li class="list-group-item d-flex justify-content-between" id="item">Puntillitas<span>16€</span></li>
+                            <li class="list-group-item d-flex justify-content-between" id="item">Calamar a la plancha<span>18€</span></li>
+                            <li class="list-group-item d-flex justify-content-between" id="item">Paella de marisco<span class="badge badge-warning badge-pill">Reserv.</span><span>12€ p.p</span></li>
+                            <li class="list-group-item d-flex justify-content-between" id="item">Choco en salsa<span>14€</span></li>
+                            <li class="list-group-item d-flex justify-content-between" id="item">Surtido de pescado <span class="badge badge-warning badge-pill">2 pers.</span><span>20€</span></li>
                         </ul>
                 </div>
 
-                <div class="box1 col-md-5 offset-1">
+                <div class="box1 col-md-5 col-12 offset-md-1">
                     <ul class="list-group">
-                            <li class="list-group-item active">Dessert</li>
-                            <li class="list-group-item">Flan de huevo</li>
-                            <li class="list-group-item">Natillas</li>
-                            <li class="list-group-item">Tarta de la abuela</li>
-                            <li class="list-group-item">Crema catalana</li>
-                            <li class="list-group-item">Pijama</li>
-                            <li class="list-group-item">Surtido variado</li>
+                            <li class="list-group-item active" id="titul">Dessert</li>
+                            <li class="list-group-item d-flex justify-content-between" id="item">Flan de huevo<span>5€</span></li>
+                            <li class="list-group-item d-flex justify-content-between" id="item">Natillas<span>5€</span></li>
+                            <li class="list-group-item d-flex justify-content-between" id="item">Tarta de la abuela <span class="badge badge-warning badge-pill">New</span><span>5€</span></li>
+                            <li class="list-group-item d-flex justify-content-between" id="item">Crema catalana<span>5€</span></li>
+                            <li class="list-group-item d-flex justify-content-between"id="item">Pijama<span>5€</span></li>
+                            <li class="list-group-item d-flex justify-content-between" id="item">Surtido variado<span>5€</span></li>
                         </ul>
                 </div>
             </div>

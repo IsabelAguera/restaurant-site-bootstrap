@@ -1,10 +1,10 @@
 .body1{
-    background-image: url(images/mediterranea.jpg);
+    background-image: url(images/opacity1.png);
     background-size: cover;
 }
 
 .body2{
-    background-image: url(images/mediterranea1.jpg);
+    background-image: url(images/opacity.png);
     background-size: cover;
 }
 
@@ -35,11 +35,94 @@
 }
 
 .box1{
-    border: 2px solid beige;
-    background-color: beige;
+    border:none;
+    background-color: rgb(254, 255, 205);
     border-radius: 15px;
 }
 
 .list-group-item{
     font-size: 12px;
 }
+
+.d-block{
+    opacity: 0.4;
+}
+
+.titre{
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: inherit;
+    font-size: 25px;;
+}
+
+.card{
+    color: black;
+    font-family: 'Miniver', cursive;
+    background-color: transparent;
+    border: none;
+    font-size: 22px;
+}
+
+#titul{
+    background-color: rgb(250, 217, 99);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    border: none;
+    border-radius: 12px;
+    color: black;
+    font-style: inherit;
+    margin-top: 1%;
+}
+
+#item{
+    font-family: 'Calligraffitti', cursive;
+    border: none;
+    font-size: 16px;
+    background-color: rgb(254, 255, 205);
+}
+
+.badge{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 2%;
+}
+
+.t1{
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.im{
+    border-radius: 10px;
+    margin: auto;
+}
+
+.box2{
+    background-color: white;
+    border-radius: 8px;
+    font-family: 'Calligraffitti', cursive;
+}
+
+.titmap{
+    font-family: 'Calligraffitti', cursive;
+    margin-top: 2%;
+    font-size: 30px;
+}
+
+.map-container-google-8{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+.map-container-google-8 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
+    
