@@ -1,31 +1,17 @@
 # bootstrap-css-framework
 
+This project is a restaurant Bootstrap project made in two weeks. 
 
-Dans ce exercice nous avons reproduit en HTML et CSS le design du site de airbnb en essayant que ça soit le plus ressemblant possible. 
-
-**A quoi ça ressemble ?** [Démo](https://isabelaguera.github.io/bootstrap-css-framework/.)
+**A quoi ça ressemble ?** [Démo](https://isabelaguera.github.io/restaurant-site-bootstrap/.)
 
 <img src="images/mangezyole.png" style="width:30%;">
 
-## Prise en main
-
-
-### Conditions préalables
-
-
-### Installation
-
-
-## Construit avec
-
+## Built with
+This site is built with HTML, CSS, Bootstrap.
 
 ## Autheurs
 
-* **Nom Prénom** - *Aguera, Isabel* - [IsabelAguera](https://github.com/IsabelAguera)
+* **Isabel Aguera Calvo**- [IsabelAguera](https://github.com/IsabelAguera)
 
-    * **Lien LinkedIn** : [nom du profil LinkedIn](https://www.linkedin.com/in/isabel-aguera-b12071191/)
+    * **https://www.linkedin.com/in/isabel-aguera/** : [Isabel Aguera]
 
-
-## Remerciements
-
-* Chapeau à tous ceux dont le code a été utilisé
